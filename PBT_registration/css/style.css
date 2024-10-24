@@ -1,0 +1,1147 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 14px;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+    background-color: #FAFCFF;
+}
+
+
+/* Sections
+     ========================================================================== */
+
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+
+main {
+    display: block;
+}
+
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+
+/* Grouping content
+     ========================================================================== */
+
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+    box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+}
+
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/* Text-level semantics
+     ========================================================================== */
+
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    text-decoration: underline dotted;
+    /* 2 */
+}
+
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+}
+
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+    font-size: 80%;
+}
+
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+
+/* Embedded content
+     ========================================================================== */
+
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+    border-style: none;
+}
+
+
+/* Forms
+     ========================================================================== */
+
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+}
+
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+    box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+}
+
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+    vertical-align: baseline;
+}
+
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+    overflow: auto;
+}
+
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+}
+
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+}
+
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+ ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+}
+
+
+/* Interactive
+     ========================================================================== */
+
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+    display: block;
+}
+
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+    display: list-item;
+}
+
+
+/* Misc
+     ========================================================================== */
+
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+    display: none;
+}
+
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+    display: none;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+hr{
+    margin: 0;
+    opacity: 10%;
+    border: none;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* НАВИГАЦИЯ */
+
+.header{
+    position: relative;
+
+    width: 1350px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrap{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__icon{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.logo__text{
+    color: #000;
+    margin-top: 23px;
+    margin-left: 6px;
+}
+
+.navigation{
+    padding-top: 23px;
+    margin-left: 285px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.menu__link{
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.menu__item2{
+    min-width: 35px;
+}
+
+.menu__item6{
+    min-width: 62px;
+}
+
+.menu__item + .menu__item{
+    margin-left: 47.8px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.menu__item:hover{
+    animation: bounce 1s;
+}
+
+.menu__link:hover{
+    color:red;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 81px;
+}
+
+.cart__icon{
+    width: 22;
+    height: 18px;
+    margin-top: 21.32px;
+}
+
+.cart__circle {
+    margin-top: 22.5px;
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 7.5px;
+    -moz-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background: #FFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+}
+
+.cart__circle-text{
+    font-size: 8px;
+}
+
+.cart__text{
+    margin-top: 23px;
+    margin-left: 3px;
+}
+
+.language{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 52px;
+}
+
+.language__menu_img-ru{
+    width: 16px;
+    height: 11px;
+    margin-top: 24px;
+}
+
+.language__text{
+    margin-top: 23px;
+    margin-left: 5px;
+}
+
+.cabinet__link{
+    display: flex;
+    margin-left: 14px;
+}
+
+.cabinet__text{
+    margin-top: 23px;
+}
+
+.cabinet__triangl{
+    margin-top: 27px;
+    margin-left: 3px;
+    border: 4px solid transparent; 
+    border-top: 7px solid #000;
+}
+
+.header__line {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    max-width: 1345px;
+    height: 1px;
+
+    z-index: 2;
+}
+
+#header__cabinet_dropdown-menu{
+    position: absolute;
+
+    display: none;
+
+    width: 104px;
+    height: 40px;
+
+    border: none;
+    -webkit-box-shadow: rgba(0,0,0,0.22) 0 1px 4px;
+    box-shadow: rgba(0,0,0,0.22) 0 1px 4px;
+    background-color: #fff;
+
+    right: 0;
+
+    margin-right: 12px;
+
+    z-index: 1;
+
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.header__cabinet_enter{
+    display: flex;
+    align-items: center;
+    height: 20px;
+
+    opacity: 0.5;
+
+    padding-left: 5px;
+}
+
+.header__cabinet_enter:hover{
+    opacity: 1;
+}
+
+.header__cabinet_registrartion{
+    display: flex;
+    align-items: center;
+
+    height: 20px;
+
+    color: rgba(0, 0, 0, 0.5);
+    border-top: #cfcfcf 1px solid;
+
+    padding-left: 5px;
+}
+
+.header__cabinet_registrartion:hover{
+    color: rgba(0, 0, 0, 1);
+}
+
+.header__cabinet_language{
+    display: none;
+    align-items: center;
+
+    height: 20px;
+
+    color: rgba(0, 0, 0, 0.5);
+    border-top: #cfcfcf 1px solid;
+
+    padding-left: 5px;
+}
+
+.language__cabinet_img-ru{
+    margin-left: 5px;
+}
+
+.header__cabinet_language:hover{
+    color: rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+
+/* Регистрация */
+
+.registration__box{
+    width: 980px;
+    height: 500px;
+    margin: 90px auto 90px auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.2);
+}
+
+.registration__content_box{
+    width: 350px;
+    height: 350px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration__h1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+
+    text-align: center;
+
+    margin: 0;
+    margin-bottom: 9px;
+}
+
+#registration__input{
+    width: 350px;
+    height: 40px;
+
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    opacity: 0.4;
+
+    padding-left: 6px;
+    margin-top: 20px;
+}
+
+#registration__input:focus{
+    border-color: rgba(0, 0, 0, 1);
+    outline: none;
+    opacity: 1;
+}
+
+.registration__checkbox{
+    position: relative;
+    margin-top: 8px;
+}
+
+.checkbox__label{
+    color: #444;
+    cursor: pointer;
+}
+
+.checkbox__input{
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+
+#checkbox__label_img{
+    display: none;
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    margin-top: 2px;
+}
+
+.checkbox__label:before{
+    content: "";
+    display: block;
+    width: 28px;
+    height: 28px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));  
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    margin-top: 2px;
+}
+
+.checkbox__label:after {
+    content: "";
+    display: block;
+    width: 34px;
+    height: 34px;
+
+    background: url("/PBT_registration/img/tick-icon.svg") no-repeat;
+    background-size: 34px 34px;
+    opacity: 0;
+
+    position: absolute;
+    top: 1px;
+    left: -2px;
+
+    transition: opacity .1s linear;
+}
+
+.checkbox__input:checked + .checkbox__label:after {
+    opacity: 1;
+}
+
+.checkbox__label_text1{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.5);
+
+    margin-left: 40px;
+
+}
+
+.checkbox__label_text2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: rgba(0, 0, 0, 0.5);
+
+    margin-left: 40px;
+}
+
+.registration__btn{
+    margin-top: 24px;
+
+    background: #FFFFFF;
+    border: 1px solid #139011;
+
+    width: 350px;
+    height: 50px;
+
+    color: #139011;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    cursor: pointer;
+}
+
+.registration__btn:hover{
+    border: 1px solid #19c216;
+    color: #19c216;
+}
+
+
+
+/* медиа-запросы */
+
+
+
+
+@media (max-width: 1400px) {
+    .navigation{
+        margin-left: 65px;
+    }
+
+    .header{
+        width: 894px;
+    }
+
+    .menu__item + .menu__item {
+        margin-left: 15px;
+    }
+    
+    .language{
+        margin-left: 20px;
+    }
+
+    .cart{
+        margin-left: 45px;
+    }
+
+    #header__cabinet_dropdown-menu{
+        margin-right: 7px;
+    }
+
+    /* авторизация ящик */
+
+    .registration__box{
+        width: 650px;
+    }
+}
+
+@media (max-width: 940px) {
+    .header{
+        width: 813px;
+    }
+
+    .logo__text{
+        display: none;
+    }
+
+    #header__cabinet_dropdown-menu{
+        margin-right: 2px;
+        margin-top: 3px;
+    }
+
+    .cabinet__text{
+        display: none;
+    }
+
+    .cabinet__triangl{
+        margin-top: 23px;
+        margin-left: 3px;
+
+        border: 0px solid;
+
+        height: 1px;
+        width: 30px;
+
+        background-color: #000;
+    }
+
+    .cabinet__triangl::before{
+        content: '';
+
+        display: block;
+
+        height: 1px;
+        width: 30px;
+
+        background-color: #000;
+
+        margin-top: 7px;
+    }
+
+    .cabinet__triangl::after{
+        content: '';
+
+        display: block;
+
+        height: 1px;
+        width: 30px;
+
+        background-color: #000;
+
+        margin-top: 7px;
+    }
+
+    .navigation{
+        margin-left: 95px;
+    }
+
+    .menu__item + .menu__item {
+        margin-left: 30px;
+    }
+
+    .cart{
+        margin-left: 75px;
+    }
+
+    .cabinet__link{
+        padding-bottom: 20px;
+        margin-left: 36px;
+    }
+
+    #header__cabinet_dropdown-menu{
+        height: 60px;
+    }
+
+    .header__cabinet_language{
+        display: flex;
+    }
+
+    .language{
+        display: none;
+    }
+
+    /* авторизация ящик */
+    .registration__box{
+        width: 650px;
+    }
+}
+
+@media (max-width: 824px) {
+    .navigation{
+        margin-left: 20px;
+    }
+
+    .cart{
+        margin-left: 25px;
+    }
+
+    .cabinet__link{
+        margin-left: 20px;
+    }
+
+    .header{
+        width: 650px;
+    }
+
+    .menu__item + .menu__item{
+        margin-left: 25px;
+    }
+
+    /* гарантии ящик */
+}
+
+@media (max-width: 659px) {
+    .header{
+        width: 423px;
+    }
+
+    .navigation{
+        position: absolute;
+
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .logo__text{
+        display: block;
+    }
+
+    .cart{
+        margin-left: 149px;
+    }
+
+    .menu__link{
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    /* гарантии ящик */
+
+    .registration__box{
+        width: 423px;
+    }
+}
+
+@media (max-width: 440px) {
+    .header{
+        width: 272px;
+    }
+
+    .logo__text{
+        display: none;
+    }
+
+    .cart{
+        margin-left: 90px;
+    }
+
+    .menu__list{
+        flex-wrap: wrap;
+    }
+
+    .navigation{
+        width: 250px;
+
+        margin-left: 12px;
+    }
+
+    .menu__item + .menu__item{
+        margin-left: 0;
+    }
+
+    .menu__link2{
+        margin-left: 25px;
+    }
+
+    .menu__link3{
+        margin-left: 25px;
+    }
+
+    .menu__link4{
+        margin-left: 20px;
+    }
+
+    .menu__item4{
+        margin-top: 15px;
+    }
+
+    .menu__item5{
+        margin-top: 15px;
+    }
+
+    .menu__item6{
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+
+    .menu__item:hover{
+        animation: none;
+    }
+    
+    /* гарантии ящик */
+    .registration__box{
+        width: 272px;
+        height: 400px;
+        margin-bottom: 15px;
+    }
+
+    .registration__content_box{
+        width: 270px;
+    }
+
+    #registration__input{
+        width: 250px;
+
+        margin-left: 10px;
+    }
+
+    .registration__btn{
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .registration__box{
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .checkbox__label_text1{
+        margin-left: 0px;
+    }
+    .checkbox__label_text2{
+        margin-left: 0px;
+    }
+
+    .registration__checkbox{
+        padding-left: 45px;
+    }
+
+    .checkbox__label::before{
+        margin-left: 10px;
+    }
+
+    #checkbox__label_img{
+        top: 0;
+        left: 0;
+
+        padding-left: 10px;
+
+        width: 40px;
+        height: 30px;
+    }
+}
